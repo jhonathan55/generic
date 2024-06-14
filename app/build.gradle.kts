@@ -55,6 +55,9 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity)
+    implementation(libs.androidx.constraintlayout)
     val nav_version = "2.7.7"
     // Navigation
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
